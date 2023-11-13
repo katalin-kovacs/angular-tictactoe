@@ -1,0 +1,22 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-gap: 0px;
+}
+
+app-square {
+  min-height: 200px;
+}
+
+#btnNewGame {
+  background-color: #ffcc70;
+  padding: 1rem;
+  font-weight: 600;
+  border: none;
+  margin-bottom: 1rem;
+
+  &:hover {
+    background-color: darken(#ffcc70, 10%);
+    transition: background-color 1000ms ease-out;
+  }
+}

@@ -1,6 +1,6 @@
 <h1>Current player: {{ player }}</h1>
 
-<button (click)="(newGame)">Start a New Game</button>
+<button (click)="newGame()" id="btnNewGame">Start a New Game</button>
 
 <h2 *ngIf="winner">Player {{ winner }} won the game!</h2>
 
